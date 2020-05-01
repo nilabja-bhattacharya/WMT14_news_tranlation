@@ -120,12 +120,3 @@ LINKS
 -   [Complete
     Repo](https://drive.google.com/open?id=1XLBd0VSe3Kx7ql8VjNYAB23YbxoPXcts)
 
-<span>99</span>
-
-https://pytorch.org/tutorials/
-http://www.statmt.org/moses/?n=Moses.Baseline Machine Translation with
-parfda, Moses, kenlm, nplm, and PRO(Ergun Bicici) “Neural machine
-translation by jointly learning to align and translate” (Dzmitry
-Bahdanau,KyungHyun Cho)
-
-All the work related to this can be found here -> [link to WMT news translation!](https://drive.google.com/open?id=1XLBd0VSe3Kx7ql8VjNYAB23YbxoPXcts)
