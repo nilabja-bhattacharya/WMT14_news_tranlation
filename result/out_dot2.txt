@@ -1,0 +1,18 @@
+Reading lines...
+Read 213492 sentence pairs
+Trimmed to 209075 sentence pairs
+Counting words...
+Counted words:
+hi 83534
+en 85702
+['चौड  ाई विभदन', 'width resolution']
+Epoch:6
+502m 26s (- -84m 15s) (6 120%) 2.9574
+Epoch:7
+1007m 17s (- -288m 12s) (7 140%) 2.8237
+Epoch:8
+1514m 8s (- -568m 11s) (8 160%) 2.6989
+Epoch:9
+2023m 34s (- -900m 37s) (9 180%) 2.6141
+Epoch:10
+2533m 13s (- -1267m 23s) (10 200%) 2.5230

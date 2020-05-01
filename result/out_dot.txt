@@ -1,0 +1,18 @@
+Reading lines...
+Read 213492 sentence pairs
+Trimmed to 209075 sentence pairs
+Counting words...
+Counted words:
+hi 83534
+en 85702
+['आप विडो एव बटनो क प  रदर  शक वषम  य को व  यवस  थित कर सकत ह ताकि व आसानी स दिख । यह और &lt; link xref = &quot; power-brighter &quot; &gt; पर प  रदर  शक की चमक को बदल &lt; / link &gt; एक नही ह ; &lt; em &gt; प  रयोक  ता फलक &lt; / em &gt; क कवल कछ हिस  स ही बदलग ।', 'you can adjust the contrast of windows and buttons so that they &apos;re easier to see . this is not the same as &lt; link xref = &quot; power-brighter &quot; &gt; changing the brightness of the whole screen &lt; / link &gt; ; only parts of the &lt; em &gt; user interface &lt; / em &gt; will change .']
+Epoch:1
+497m 16s (- 1989m 7s) (1 20%) 5.1781
+Epoch:2
+998m 22s (- 1497m 33s) (2 40%) 4.2293
+Epoch:3
+1504m 37s (- 1003m 5s) (3 60%) 3.7152
+Epoch:4
+2013m 39s (- 503m 24s) (4 80%) 3.3825
+Epoch:5
+2523m 28s (- 0m 0s) (5 100%) 3.1491

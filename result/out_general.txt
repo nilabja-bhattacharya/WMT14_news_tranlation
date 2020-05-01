@@ -1,0 +1,18 @@
+Reading lines...
+Read 213492 sentence pairs
+Trimmed to 209075 sentence pairs
+Counting words...
+Counted words:
+hi 83534
+en 85702
+['मोरबी', 'morbi']
+Epoch:1
+503m 43s (- 2014m 55s) (1 20%) 5.2304
+Epoch:2
+1011m 35s (- 1517m 22s) (2 40%) 4.2966
+Epoch:3
+1524m 14s (- 1016m 9s) (3 60%) 3.7764
+Epoch:4
+2037m 0s (- 509m 15s) (4 80%) 3.4371
+Epoch:5
+2551m 22s (- 0m 0s) (5 100%) 3.2046
