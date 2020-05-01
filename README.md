@@ -40,7 +40,7 @@ SMT, NMT, General, Concat, Dot, Attention
     target language. Training requires a parallel corpus of passages in
     the two languages, typically manually translated sentence pairs.
 
-5.  Language Modeling: $P(e)$ Before finding $p(f|e)$ we need to build a
+5.  Language Modeling: P(e) Before finding P(f|e) we need to build a
     machine that assigns a probability P(e) to each English sentence e.
     This is called a language model.
 
@@ -49,18 +49,17 @@ SMT, NMT, General, Concat, Dot, Attention
     an n-gram. If n=2, we say bigram. If n=3, we say trigram. If n=1,
     nerds say unigram, and normal people say word.
 
-7.  Translation Modeling: $P(f | e)$, the probability of a string f
-    given an English string e. This is called a translation model. $P(f |
-    e)$ will be a module in overall f-to-e machine translation.\
+7.  Translation Modeling: P(f|e), the probability of a string f
+    given an English string e. This is called a translation model. P(f|e) will be a module in overall f-to-e machine translation.
     When we see a string f, what we need to consider for e is that how
     likely it is to be uttered, and likely to subsequently translate to
-    f? We’re looking for the e that maximizes $$P(e) * P(f | e)$$.
+    f? We’re looking for the e that maximizes P(e) * P(f | e).
 
 8.  Alignment Probabilities: For a given sentence pair: what is the
     probability of the words being aligned in particular arrangement.
     For a given sentence pair, the probabilities of the various possible
-    alignments should add to one. $$\display{P(a | e,f) = P(a,f | e) / P(f | e)$$
-    $$P(f | e) = \sum P(a,f | e)}$$
+    alignments should add to one. P(a | e,f) = P(a,f | e) / P(f | e)
+    (f | e) = \sum P(a,f | e)
 
 9.  Expectation Maximization Algorithm
 
