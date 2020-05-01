@@ -1,4 +1,4 @@
-# WMT14_news_tranlation
+# WMT14 News Tranlation on hindi english data corpus
 In this project our task was to perform Machine Translation on a
 English-Hindi News Corpus. We have solved it using
 
