@@ -10,9 +10,8 @@ English-Hindi News Corpus. We have solved it using
     network or Encoder-Decoder network, a model consisting of two RNNs
     called the encoder and decoder.
 
-SMT, NMT, General, Concat, Dot, Attention
+Keywords: SMT, NMT, General, Concat, Dot, Attention
 
-### INTRODUCTION
 
 1.  SMT: Statistical machine translation is a machine translation
     paradigm where translations are generated on the basis of
@@ -59,7 +58,7 @@ SMT, NMT, General, Concat, Dot, Attention
     probability of the words being aligned in particular arrangement.
     For a given sentence pair, the probabilities of the various possible
     alignments should add to one. P(a | e,f) = P(a,f | e) / P(f | e)
-    (f | e) = $\sum$ P(a,f | e)
+    (f | e) = sum(P(a,f | e))
 
 9.  Expectation Maximization Algorithm
 
