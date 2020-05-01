@@ -12,10 +12,10 @@ English-Hindi News Corpus. We have solved it using
 
 SMT, NMT, General, Concat, Dot, Attention
 
-INTRODUCTION
+### INTRODUCTION
 ============
 
-1.  SMT:Statistical machine translation is a machine translation
+1.  SMT: Statistical machine translation is a machine translation
     paradigm where translations are generated on the basis of
     statistical models whose parameters are derived from the analysis of
     bilingual text corpora. The statistical approach contrasts with the
@@ -27,41 +27,41 @@ INTRODUCTION
     the de- mand of heavily hand crafted engineering ef- forts. NMT
     often outperforms Statistical Machine Translation (SMT) techniques
     but it still struggles if the parallel data is insufficient like in
-    the case of Indian languages.\
+    the case of Indian languages.
 
 3.  Attention: The basic idea: each time the model predicts an output
     word, it only uses parts of an input where the most relevant
     information is concentrated instead of an entire sentence. In other
-    words, it only pays attention to some input words\
+    words, it only pays attention to some input words
 
 4.  MOSES: Moses is a free software,SMT engine that can be used to train
     statistical models of text translation from a source language to a
     target language. Moses then allows new source-language text to be
     decoded using these models to produce automatic translations in the
     target language. Training requires a parallel corpus of passages in
-    the two languages, typically manually translated sentence pairs.\
+    the two languages, typically manually translated sentence pairs.
 
 5.  Language Modeling: $$P(e)$$ Before finding p(f|e) we need to build a
     machine that assigns a probability P(e) to each English sentence e.
-    This is called a language model.\
+    This is called a language model.
 
 6.  N-grams: For computers, the easiest way to break a string down into
     components is to consider substrings. An n-word substring is called
     an n-gram. If n=2, we say bigram. If n=3, we say trigram. If n=1,
-    nerds say unigram, and normal people say word.\
+    nerds say unigram, and normal people say word.
 
 7.  Translation Modeling: $P(f | e)$, the probability of a string f
     given an English string e. This is called a translation model. $P(f |
     e)$ will be a module in overall f-to-e machine translation.\
     When we see a string f, what we need to consider for e is that how
     likely it is to be uttered, and likely to subsequently translate to
-    f? We’re looking for the e that maximizes $$P(e) * P(f | e)$$.\
+    f? We’re looking for the e that maximizes $$P(e) * P(f | e)$$.
 
 8.  Alignment Probabilities: For a given sentence pair: what is the
     probability of the words being aligned in particular arrangement.
     For a given sentence pair, the probabilities of the various possible
-    alignments should add to one. $$P(a | e,f) = P(a,f | e) / P(f | e)$$
-    $$P(f | e) = \sum P(a,f | e)$$
+    alignments should add to one. $$\display{P(a | e,f) = P(a,f | e) / P(f | e)$$
+    $$P(f | e) = \sum P(a,f | e)}$$
 
 9.  Expectation Maximization Algorithm
 
@@ -73,44 +73,8 @@ INTRODUCTION
 
     4.  Iterate steps 2 and 3 until convergence
 
-LITERATURE SURVEY
-=================
 
-These are the state of the art papers in this area that we referenced.
-
-​1. “Neural machine translation by jointly learning to align and
-translate” (Dzmitry Bahdanau,KyungHyun Cho) In this paper the authors
-conjecture that the use of a fixed-length vector is a bottleneck in
-improving the performance of this basic encoder–decoder architecture,
-and propose to extend this by allowing a model to automatically
-soft-search for parts of a source sentence that are relevant to
-predicting a target word, without having to form these parts as a hard
-segment explicitly. With this new approach, they achieve a translation
-performance comparable to the existing state-of-the-art phrase-based
-system on the task of English-to-French translation. In order to address
-this issue that the performance of a basic encoder–decoder deteriorates
-rapidly as the length of an input sentence increases, an extension to
-the encoder–decoder model which learns to align and translate jointly is
-suggested. Each time the proposed model generates a word in a
-translation, it (soft-)searches for a set of positions in a source
-sentence where the most relevant information is concentrated. The model
-then predicts a target word based on the context vectors associated with
-these source positions and all the previous generated target words.\
-
-​2. Machine Translation with parfda, Moses, kenlm, nplm, and PRO (Ergun
-Bicici) In this paper they build parfda (parallel feature weight decay
-algorithms) Moses SMT models for most language pairs in the news
-translation task. The authors experiment with a hybrid approach using
-neural language models integrated into Moses. They obtain the
-constrained data statistics on the machine translation task, the
-coverage of the test sets, and the upper bounds on the translation
-results. Parfda parallelize feature decay algorithms (FDA), a class of
-instance selection algorithms that decay feature weights, for fast
-deployment of accurate SMT systems. They train 6-gram LM using kenlm and
-use mgiza for word alignment.
-
-
-LINKS
+### LINKS
 =====
 
 -   [Slides](https://docs.google.com/presentation/d/1tylPZVzRy1UaASTTlmhpExfjZEGoUNs8RqHTxwDxbX8/edit?usp=sharing)
