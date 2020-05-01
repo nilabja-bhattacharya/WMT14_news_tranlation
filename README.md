@@ -1,14 +1,5 @@
 # WMT14 News Tranlation on hindi english data corpus
-In this project our task was to perform Machine Translation on a
-English-Hindi News Corpus. We have solved it using
-
-1.  SMT: We built a MOSES phrase based Statistical Machine Translation
-    system to translate the test sets in the IIT Bombay dataset for the
-    WMT News Translation task.
-
-2.  NMT: Neural Machine Translation. We built a Sequence to Sequence
-    network or Encoder-Decoder network, a model consisting of two RNNs
-    called the encoder and decoder.
+In this project our task was to perform Machine Translation on a English-Hindi News Corpus. We have solved it using SMT and NMT and we presented the BLEU score on each system 
 
 Keywords: SMT, NMT, General, Concat, Dot, Attention
 
