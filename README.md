@@ -13,7 +13,6 @@ English-Hindi News Corpus. We have solved it using
 SMT, NMT, General, Concat, Dot, Attention
 
 ### INTRODUCTION
-============
 
 1.  SMT: Statistical machine translation is a machine translation
     paradigm where translations are generated on the basis of
@@ -41,7 +40,7 @@ SMT, NMT, General, Concat, Dot, Attention
     target language. Training requires a parallel corpus of passages in
     the two languages, typically manually translated sentence pairs.
 
-5.  Language Modeling: $$P(e)$$ Before finding p(f|e) we need to build a
+5.  Language Modeling: $P(e)$ Before finding $p(f|e)$ we need to build a
     machine that assigns a probability P(e) to each English sentence e.
     This is called a language model.
 
@@ -75,7 +74,6 @@ SMT, NMT, General, Concat, Dot, Attention
 
 
 ### LINKS
-=====
 
 -   [Slides](https://docs.google.com/presentation/d/1tylPZVzRy1UaASTTlmhpExfjZEGoUNs8RqHTxwDxbX8/edit?usp=sharing)
 
