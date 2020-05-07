@@ -60,7 +60,14 @@ Keywords: SMT, NMT, General, Concat, Dot, Attention
     3.  From these expected counts we get the “revised” probabilities.
 
     4.  Iterate steps 2 and 3 until convergence
-
+     
+### Steps to use it
+    1. To use smt_mosses.sh run the script by setting the path relative to ~/smt/temp/
+    2. To generate translated sentence run the test.sh script by setting path relative to ~/smt/temp/
+    3. We can check the bleu score of smt model using the helper.ipynb file in smt directory
+    4. There is individual python script for each model in nmt directory which can be run using - python <python_script.py> 
+    5. We can check the performance using the checkpoints created in step 3, in colab by uploading the checkpoints and running the notebook. To use a checkpoint created in a particular epoch, set - itr - in notebook to the particular epoch number. 
+    6. To use the checkpoints that I've created, please add shortcut to the drive in your google drive and then run the notebook
 
 ### LINKS
 
